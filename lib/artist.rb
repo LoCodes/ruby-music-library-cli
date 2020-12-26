@@ -35,11 +35,11 @@ class Artist
 # #songs
 # returns the artist's 'songs' collection (artist has many songs)
 
-    def songs 
-        Song.all.map do |song|
-            song
-        end 
-    end 
+    # def songs 
+    #     Song.all.map do |song|
+    #         song
+    #     end 
+    # end 
 
 # #add_song
 #  assigns the current artist to the song's 'artist' property (song belongs to artist)
